@@ -1,4 +1,3 @@
-const { expect } = require('chai');
 const { Person, BMICalculator } = require('./spec.helper.js')
 
 describe("Person", () => {
