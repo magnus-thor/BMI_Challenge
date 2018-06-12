@@ -3,7 +3,7 @@ const { Person, BMICalculator } = require('./spec.helper.js')
 describe("Person", () => {
     let person = new Person({
         weight: 90,
-        height: 186
+        height: 170
     });
 
     it("should have weight of 90", () => {
